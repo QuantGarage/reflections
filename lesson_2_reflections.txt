@@ -10,3 +10,25 @@ repository? What value do you think it offers?
 
 The staging area is the limbo between working directory and repository.
 It allows you some finer granularity in what to commit to a repository.
+
+
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+You could use git diff --staged to check the differences between the
+staged file and the latest commit.
+Furthermore, if you are dealing with a multi-file project, you could
+only stage the relevant file which would preclude any changes in
+other files to be commited.
+
+
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+If you are considering two possible ways to develop your projects further.
+Maybe you think one is too risky by far as regarding the likelihood with
+which you are going to be satisfied with the end result. You could just
+branch off the master path to toy with the idea for a while and see
+where your efforts take you.
