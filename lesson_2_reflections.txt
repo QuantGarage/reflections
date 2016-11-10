@@ -27,6 +27,11 @@ other files to be commited.
 What are some situations when branches would be helpful in keeping your
 history organized? How would branches help?
 
+Mike Wales@Udacity tells us: the master branch is for production quality
+work. Its content always works, never breaks. He creates branches for
+development work and for experiments or when he feels bored and wants
+to go off on a tangent.
+
 If you are considering two possible ways to develop your projects further.
 Maybe you think one is too risky by far as regarding the likelihood with
 which you are going to be satisfied with the end result. You could just
