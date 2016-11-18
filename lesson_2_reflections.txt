@@ -37,3 +37,21 @@ Maybe you think one is too risky by far as regarding the likelihood with
 which you are going to be satisfied with the end result. You could just
 branch off the master path to toy with the idea for a while and see
 where your efforts take you.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+It shows us how and where we branched off the master path. We can also
+use it to figure out which commits are not reachable.
+
+
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+
+Merging results in the consolidation of one branch into the other while
+still keeping both parents and paths reachable.
+
+
