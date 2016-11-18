@@ -55,3 +55,14 @@ Merging results in the consolidation of one branch into the other while
 still keeping both parents and paths reachable.
 
 
+
+What are the pros and cons of Git's automatic merging vs always doing
+merges manually?
+
+If it is a priori reasonably clear which changes make sense to keep and 
+which to discard, you save quite some time by having it done in an
+automated fashion. On the other hand, you might encounter additional
+time that needs to be spent on resolving conflicts that might seem
+obvious to you how to resolve.
+
+
